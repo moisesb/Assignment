@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+          package="net.moisesborges.conferencetracker">
+
+    <application
+        android:name=".App"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+
+        <activity android:name=".login.LoginActivity"
+                  android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name=".editconference.EditConferenceActivity"
+            android:label="@string/new_conference_activity"
+            android:parentActivityName=".dashboard.DashboardActivity"
+            android:theme="@style/AppTheme.NoActionBar"/>
+
+        <activity
+            android:name=".conferencedetails.ConferenceDetailsActivity"
+            android:label="@string/conference_details_activity"
+            android:parentActivityName=".dashboard.DashboardActivity"
+            android:windowSoftInputMode="adjustResize"
+            android:theme="@style/AppTheme.NoActionBar"/>
+
+        <activity
+            android:name=".invitations.InvitationsActivity"
+            android:label="@string/invitations_activity"
+            android:parentActivityName=".dashboard.DashboardActivity"
+            android:theme="@style/AppTheme.NoActionBar"/>
+
+        <activity
+            android:name=".dashboard.DashboardActivity"
+            android:label="@string/dashboard_activity"
+            android:theme="@style/AppTheme.NoActionBar"/>
+
+    </application>
+
+</manifest>

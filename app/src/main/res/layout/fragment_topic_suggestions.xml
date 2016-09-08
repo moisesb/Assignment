@@ -1,0 +1,55 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:app="http://schemas.android.com/apk/res-auto"
+              xmlns:tools="http://schemas.android.com/tools"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:orientation="vertical"
+              tools:context="net.moisesborges.conferencetracker.suggestions.SuggestionsFragment">
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/topic_suggestions_recycler_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:color/white"
+        android:clipToPadding="false"
+        android:elevation="4dp">
+
+        <EditText
+            android:id="@+id/suggestion_edit_text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_marginLeft="16dp"
+            android:layout_toLeftOf="@+id/add_topic_suggestion_button"
+            android:layout_toStartOf="@+id/add_topic_suggestion_button"
+            android:inputType="textMultiLine"
+            android:hint="@string/comments_hint"
+            android:maxLines="5"
+            android:minLines="1"
+            android:scrollbars="vertical"/>
+
+        <ImageButton
+            android:id="@+id/add_topic_suggestion_button"
+            style="@style/Widget.AppCompat.Button.Borderless"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="@dimen/activity_vertical_margin"
+            android:layout_marginLeft="@dimen/activity_horizontal_margin"
+            android:layout_marginRight="@dimen/activity_horizontal_margin"
+            android:layout_marginTop="@dimen/activity_vertical_margin"
+            android:padding="16dp"
+            android:src="@drawable/ic_send_white_24dp"
+            android:tint="@color/colorAccent"
+            android:visibility="visible"/>
+
+    </RelativeLayout>
+
+
+</LinearLayout>

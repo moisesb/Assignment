@@ -1,0 +1,36 @@
+<resources>
+    <string name="app_name">Conference Tracker</string>
+    <string name="new_conference_activity">New Conference</string>
+    <string name="conferences_activity">Upcoming Conferences</string>
+    <string name="conference_title_hint">Title</string>
+    <string name="conference_end_date_hint">End Date</string>
+    <string name="conference_start_date_hint">Start Date</string>
+    <string name="conference_venue_hint">Venue</string>
+    <string name="conference_place_hint">Place</string>
+    <string name="conference_details_activity">Conference</string>
+    <string name="invitations_activity">Invitations</string>
+    <string name="logout_menu_option">Logout</string>
+    <string name="invitations_menu_option">Invitations</string>
+    <string name="email_hint">Email</string>
+    <string name="password_hint">Password</string>
+    <string name="dashboard_activity">Conferences</string>
+    <string name="upcoming_conferences_page_title">Upcoming</string>
+    <string name="suggestions_page_title">Suggestions</string>
+    <string name="saved_conferences_page_title">Saved</string>
+    <string name="edit_button">Edit</string>
+    <string name="delete_button">Delete</string>
+    <string name="accept_button">Accept</string>
+    <string name="decline_button">Decline</string>
+    <string name="accepted_button">Accepted</string>
+    <string name="declined_button">Declined</string>
+    <string name="added_to_calendar_message">Added to Calendar</string>
+    <string name="invitation_sent_message">Invitation Sent</string>
+    <string name="suggestion_title">Suggestions for this conference</string>
+    <string name="comments_hint">Comment</string>
+    <string name="removed_to_calendar_message">Removed from Calendar</string>
+    <string name="add_conference_button">Add</string>
+    <string name="number_of_conference_days_hint">Number of Days</string>
+    <string name="action_delete">Delete</string>
+    <string name="action_edit">Edit</string>
+    <string name="conference_speciality_hint">Speciality</string>
+</resources>

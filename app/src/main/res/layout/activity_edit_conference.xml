@@ -1,0 +1,235 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_new_conference"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="net.moisesborges.conferencetracker.editconference.EditConferenceActivity">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="?attr/colorPrimary"
+        android:elevation="4dp"
+        app:popupTheme="@style/ThemeOverlay.AppCompat.Light"
+        app:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"/>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_marginTop="8dp"
+        android:orientation="horizontal">
+
+
+        <ImageView
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+            android:layout_margin="16dp"
+            android:tint="@color/grey"
+            app:srcCompat="@drawable/ic_title_black_24dp"/>
+
+        <EditText
+            android:id="@+id/conference_title_edit_text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            style="@style/FullWidthEditText"
+            android:layout_marginRight="16dp"
+            android:layout_marginTop="16dp"
+            android:hint="@string/conference_title_hint"/>
+
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginBottom="4dp"
+        android:layout_marginLeft="72dp"
+        android:layout_marginStart="72dp"
+        android:layout_marginTop="4dp"
+        android:background="@color/divider"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_marginTop="8dp"
+        android:orientation="horizontal">
+
+
+        <ImageView
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+            android:layout_margin="16dp"
+            android:tint="@color/grey"
+            app:srcCompat="@drawable/ic_map_black_24dp"/>
+
+        <EditText
+            android:id="@+id/conference_place_edit_text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            style="@style/FullWidthEditText"
+            android:layout_marginRight="16dp"
+            android:layout_marginTop="16dp"
+            android:hint="@string/conference_place_hint"/>
+
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginBottom="4dp"
+        android:layout_marginLeft="72dp"
+        android:layout_marginStart="72dp"
+        android:layout_marginTop="4dp"
+        android:background="@color/divider"/>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_marginTop="8dp"
+        android:orientation="horizontal">
+
+
+        <ImageView
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+            android:layout_margin="16dp"
+            android:tint="@color/grey"
+            app:srcCompat="@drawable/ic_place_black_24dp"/>
+
+        <EditText
+            android:id="@+id/conference_venue_edit_text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            style="@style/FullWidthEditText"
+            android:layout_marginRight="16dp"
+            android:layout_marginTop="16dp"
+            android:hint="@string/conference_venue_hint"/>
+
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginBottom="4dp"
+        android:layout_marginLeft="72dp"
+        android:layout_marginStart="72dp"
+        android:layout_marginTop="4dp"
+        android:background="@color/divider"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_marginTop="8dp"
+        android:orientation="horizontal">
+
+
+        <ImageView
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+            android:layout_margin="16dp"
+            android:tint="@color/grey"
+            app:srcCompat="@drawable/ic_event_white_24dp"/>
+
+        <EditText
+            android:id="@+id/conference_start_date_edit_text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            style="@style/FullWidthEditText"
+            android:layout_marginRight="16dp"
+            android:layout_marginTop="16dp"
+            android:focusableInTouchMode="false"
+            android:hint="@string/conference_start_date_hint"
+            android:inputType="date"/>
+
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginBottom="4dp"
+        android:layout_marginLeft="72dp"
+        android:layout_marginStart="72dp"
+        android:layout_marginTop="4dp"
+        android:background="@color/divider"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_marginTop="8dp"
+        android:orientation="horizontal">
+
+
+        <ImageView
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+            android:layout_margin="16dp"
+            android:tint="@color/grey"
+            app:srcCompat="@drawable/ic_date_range_black_24dp"/>
+
+        <EditText
+            android:id="@+id/conference_days_edit_text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            style="@style/FullWidthEditText"
+            android:layout_marginRight="16dp"
+            android:layout_marginTop="16dp"
+            android:hint="@string/number_of_conference_days_hint"
+            android:inputType="number"/>
+
+
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginBottom="4dp"
+        android:layout_marginLeft="72dp"
+        android:layout_marginStart="72dp"
+        android:layout_marginTop="4dp"
+        android:background="@color/divider"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_marginTop="8dp"
+        android:orientation="horizontal">
+
+
+        <ImageView
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+            android:layout_margin="16dp"
+            android:tint="@color/grey"
+            app:srcCompat="@drawable/ic_label_black_24dp"/>
+
+        <Spinner
+            android:id="@+id/conference_speciality_spinner"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            style="@style/FullWidthEditText"
+            android:layout_marginRight="16dp"
+            android:layout_marginTop="16dp"
+            android:focusableInTouchMode="false"
+            android:hint="@string/conference_speciality_hint"
+            android:inputType="date"/>
+
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginBottom="4dp"
+        android:layout_marginLeft="72dp"
+        android:layout_marginStart="72dp"
+        android:layout_marginTop="4dp"
+        android:background="@color/divider"/>
+
+
+
+</LinearLayout>

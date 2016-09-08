@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array
+        name="specialities_array">
+        <item>  Acute Medicine                                    </item>
+        <item>  Allergy                                           </item>
+        <item>  Anaesthetics                                      </item>
+        <item>  Anatomy                                           </item>
+        <item>  Audiological Medicine                             </item>
+        <item>  Breast Surgery                                    </item>
+        <item>  Cardio-Thoracic Surgery                           </item>
+        <item>  Cardiology                                        </item>
+        <item>  Career Management                                 </item>
+        <item>  Chemical Pathology                                </item>
+        <item>  Child / Adolescent Psychiatry                     </item>
+        <item>  Clinical Genetics                                 </item>
+        <item>  Clinical Neurophysiology                          </item>
+        <item>  Clinical Pharmacology                             </item>
+        <item>  Colorectal Surgery                                </item>
+        <item>  Dermatology                                       </item>
+        <item>  Education and Training                            </item>
+        <item>  Emergency Medicine                                </item>
+        <item>  Endocrinology and Diabetes                        </item>
+        <item>  Environmental Medicine                            </item>
+        <item>  Epidemiology                                      </item>
+        <item>  Forensic Psychiatry                               </item>
+        <item>  Gastroenterology                                  </item>
+        <item>  Gene Therapy                                      </item>
+        <item>  General / Internal Medicine                       </item>
+        <item>  General Practice / Family Physician               </item>
+        <item>  General Surgery                                   </item>
+        <item>  Genito-Urinary Medicine                           </item>
+        <item>  Geriatric Medicine                                </item>
+        <item>  Haematology                                       </item>
+        <item>  Hepatology                                        </item>
+        <item>  Histopathology                                    </item>
+        <item>  Immediate/Pre Hospital Care                       </item>
+        <item>  Immunology                                        </item>
+        <item>  Infectious Diseases                               </item>
+        <item>  Intensive Care Medicine                           </item>
+        <item>  Learning Disability                               </item>
+        <item>  Medical Administration                            </item>
+        <item>  Medical Ethics                                    </item>
+        <item>  Medical Informatics                               </item>
+        <item>  Medical Microbiology                              </item>
+        <item>  Medical Oncology                                  </item>
+        <item>  Medico Legal                                      </item>
+        <item>  Midwifery                                         </item>
+        <item>  Military Healthcare                               </item>
+        <item>  Neonatology                                       </item>
+        <item>  Neurology                                         </item>
+        <item>  Neuropathology                                    </item>
+        <item>  Neuroradiology                                    </item>
+        <item>  Neurosurgery                                      </item>
+        <item>  Nuclear Medicine                                  </item>
+        <item>  Nursing                                           </item>
+        <item>  Nutrition                                         </item>
+        <item>  Obstetrics and Gynaecology                        </item>
+        <item>  Occupational Medicine                             </item>
+        <item>  Old Age Psychiatry                                </item>
+        <item>  Ophthalmology                                     </item>
+        <item>  Oral and Maxillofacial Surgery                    </item>
+        <item>  Orthopaedics                                      </item>
+        <item>  Otorhinolaryngology                               </item>
+        <item>  Paediatric Cardiology                             </item>
+        <item>  Paediatric Endocrinology                          </item>
+        <item>  Paediatric Gastroenterology                       </item>
+        <item>  Paediatric Intensive Care                         </item>
+        <item>  Paediatric Nephrology                             </item>
+        <item>  Paediatric Neurology                              </item>
+        <item>  Paediatric Oncology                               </item>
+        <item>  Paediatric Respiratory                            </item>
+        <item>  Paediatric Surgery                                </item>
+        <item>  Paediatric Urology                                </item>
+        <item>  Paediatrics                                       </item>
+        <item>  Pain Management                                   </item>
+        <item>  Palliative Medicine                               </item>
+        <item>  Pharmaceutical Medicine                           </item>
+        <item>  Physiotherapy                                     </item>
+        <item>  Plastic Surgery                                   </item>
+        <item>  Podiatry                                          </item>
+        <item>  Psychiatry                                        </item>
+        <item>  Psychotherapy                                     </item>
+        <item>  Public Health Medicine                            </item>
+        <item>  Radiation Oncology                                </item>
+        <item>  Radiology                                         </item>
+        <item>  Rehabilitation Medicine                           </item>
+        <item>  Renal Medicine                                    </item>
+        <item>  Respiratory Medicine                              </item>
+        <item>  Rheumatology                                      </item>
+        <item>  Speech and Language Therapy                       </item>
+        <item>  Spine Surgery                                     </item>
+        <item>  Sports Medicine                                   </item>
+        <item>  Stroke Medicine                                   </item>
+        <item>  Transplant Surgery                                </item>
+        <item>  Trauma and Orthopaedics                           </item>
+        <item>  Tropical Medicine                                 </item>
+        <item>  Upper GI / HPB Surgery                            </item>
+        <item>  Urology                                           </item>
+        <item>  Vascular Surgery                                  </item>
+    </string-array>
+
+</resources>
